@@ -20,23 +20,25 @@ namespace swtich_case
                 );
 
             string s1 = null;
-            s1 = Console.ReadLine();
+            int i1 = 0;
+            //s1 = console.readline();
+            i1 = Convert.ToInt32(Console.ReadLine());
 
             switch (s1)
             {
-                case "1":
+                case 1:
                     Console.WriteLine("seleccionaste la suma");
                     break;
-                case "2":
+                case 2:
                     Console.WriteLine("seleccionaste la resta");
                     break;
-                case "3":
+                case 3:
                     Console.WriteLine("seleccionaste la multiplicacion");
                     break;
-                case "4":
+                case 4:
                     Console.WriteLine("seleccionaste la division");
                     break;
-                case "5":
+                case 5:
                     Console.WriteLine("seleccionaste salir");
                     break;
                 default:
